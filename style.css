@@ -1,0 +1,38 @@
+h1 {
+  color: #31968e;
+}
+p {
+  color: #963131;
+  font-size: smaller;
+}
+.paragraph {
+  color: #333196;
+  font-size: 25px;
+}
+.container {
+  font-size: 15px;
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+}
+
+.card-car {
+  height: auto;
+  width: 200px;
+  border-radius: 15px;
+  background-color: rgb(230, 230, 230);
+  padding: 10px;
+  margin-top: 30px;
+  color: rgb(10, 10, 10);
+  cursor: pointer;
+}
+
+.card-car > img {
+  width: 200px;
+  border-radius: 15px;
+}
+
+.card-car:hover {
+  opacity: 0.7;
+  background-color: #31968e;
+}

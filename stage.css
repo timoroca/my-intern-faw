@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
+
+* {
+  font-family: "Oswald";
+}
+
+header {
+  font-size: larger;
+}
+.titre-1 {
+  color: rgb(212, 212, 212);
+  text-decoration: underline overline solid #ff0000;
+}
+p {
+  color: #000000;
+}
+
+.htitre {
+  color: rgb(0, 0, 0);
+  text-decoration: underline overline solid #ff0000;
+  font-size: xx-large;
+}
+.bont {
+  font-size: larger;
+}
+
+.container {
+  color: #000000;
+}
+
+.body {
+  position: relative;
+  font-family: verdana;
+  background-color: rgb(236, 240, 241);
+}
+#test {
+  font-size: 250%;
+}
+p {
+  margin: 1em 0;
+}
+header {
+  height: 100px;
+  line-height: 100px;
+  width: 100%;
+  color: white;
+  background-color: rgb(63, 70, 76);
+  text-transform: uppercase;
+  text-align: center;
+  border-radius: 20px;
+}
+
+nav {
+  height: px;
+  line-height: 50px;
+  width: 100%;
+  background-color: rgb(282, 97, 1);
+  text-transform: uppercase;
+  text-align: center;
+  position: relative;
+  color: white;
+  border-radius: 20px;
+  font-size: auto;
+}
+nav img {
+  position: absolute;
+  height: 50px;
+  left: 30px;
+  top: 0;
+  border-radius: 20px;
+  transition: all 1s ease;
+}
+.container {
+  height: 200px;
+  width: 80%;
+  margin: 0 auto;
+  background-color: rgb(212, 212, 212);
+  color: aliceblue;
+  padding: 10px;
+}
+
+.wrapper-content {
+  background-color: rgb(2, 2, 2);
+
+  color: aliceblue;
+  padding: 15px;
+}
+.container-footer {
+  color: #000000;
+  text-align: end;
+  font-weight: 300 !important;
+}
