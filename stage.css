@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 * {
-  font-family: "Oswald";
+  font-family: "Roboto";
 }
 
 header {
@@ -10,6 +10,7 @@ header {
 .titre-1 {
   color: rgb(212, 212, 212);
   text-decoration: underline overline solid #ff0000;
+  font-family: "Oswald";
 }
 p {
   color: #000000;
@@ -19,6 +20,7 @@ p {
   color: rgb(0, 0, 0);
   text-decoration: underline overline solid #ff0000;
   font-size: xx-large;
+  font-family: "Oswald";
 }
 .bont {
   font-size: larger;
@@ -30,8 +32,7 @@ p {
 
 .body {
   position: relative;
-  font-family: verdana;
-  background-color: rgb(236, 240, 241);
+  background-color: rgb(212, 212, 212);
 }
 #test {
   font-size: 250%;
@@ -44,36 +45,30 @@ header {
   line-height: 100px;
   width: 100%;
   color: white;
-  background-color: rgb(63, 70, 76);
+  background-color: rgb(0, 0, 0);
   text-transform: uppercase;
   text-align: center;
   border-radius: 20px;
 }
 
 nav {
-  height: px;
-  line-height: 50px;
-  width: 100%;
+  height: auto;
+  line-height: 57px;
+  width: 30%;
+  margin: auto;
   background-color: rgb(282, 97, 1);
-  text-transform: uppercase;
+  text-transform: capitalize;
   text-align: center;
   position: relative;
   color: white;
   border-radius: 20px;
   font-size: auto;
-}
-nav img {
-  position: absolute;
-  height: 50px;
-  left: 30px;
-  top: 0;
-  border-radius: 20px;
-  transition: all 1s ease;
+  margin-left: 75%;
 }
 .container {
   height: 200px;
   width: 80%;
-  margin: 0 auto;
+  margin: 0%;
   background-color: rgb(212, 212, 212);
   color: aliceblue;
   padding: 10px;
@@ -81,12 +76,56 @@ nav img {
 
 .wrapper-content {
   background-color: rgb(2, 2, 2);
-
   color: aliceblue;
   padding: 15px;
 }
+.wrapper-content a {
+  color: white;
+}
+
 .container-footer {
   color: #000000;
   text-align: end;
   font-weight: 300 !important;
+}
+.wkbrl {
+  font-size: 20px;
+}
+
+.positioned:hover {
+  opacity: 100%;
+  transition: 1s;
+}
+
+.positioned {
+  position: fixed;
+  background: 0%;
+  background: size 100000px;
+  opacity: 0%;
+  background-color: rgb(282, 97, 1);
+}
+.titre3 {
+  color: #000;
+  font-size: 25px;
+  text-decoration: underline overline solid #ff0000;
+  border-radius: 5px;
+  margin: auto;
+}
+.ze {
+  width: 500px;
+  height: 700px;
+  border-radius: 15px;
+  transition: transform 0.3s;
+}
+.ze:hover {
+  zoom: 1;
+  -ms-transform: scale(1.5);
+  -webkit-transform: scale(1.5);
+  transform: scale(1.04);
+}
+
+.aria {
+  position: fixed;
+  margin-left: 1450px;
+  margin-top: -70px;
 }
